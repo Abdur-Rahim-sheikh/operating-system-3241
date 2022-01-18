@@ -1,0 +1,22 @@
+Commands for 5.8.2021
+=====================
+$ ps
+$ ps -aux
+
+$ top
+$ htop
+
+$ man <COMMAND> [e.g., $ man ps]  ---> Press 'Q' for exit.
+
+$ pstree
+$ pstree -p
+$ pstree -pas <PID> [e.g., pstree -pas 4322]
+
+
+
+getpid()
+getppid()
+fork()
+exit()
+
+
