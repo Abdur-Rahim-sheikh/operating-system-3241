@@ -1,0 +1,17 @@
+Create a process, named MultiHead, 
+having three threads, named Ittu, Bittu, and Mittu .
+Ittu, Bittu, and Mittu  perform addition, subtraction 
+and multiplication of two variables sent by the main thread
+of the process and keep the output in a global variable, 
+result. All threads print their process ID, thread ID,
+CPU Info and the global variable, 'result'.
+
+The main thread waits until each thread finish its task.
+The main thread reads and sends two integer values 
+to each thread 100 times.
+
+If any thread finds that 'result' = 100, 
+it immediately send signal to the main thread to stop 
+the process.
+
+Take necessary steps to avoid thread racing.
